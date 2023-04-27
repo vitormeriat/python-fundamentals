@@ -1,5 +1,5 @@
 import unittest
-from basic_sorting import bubble, heap, insertion
+from src.basic_sorting import bubble, heap, insertion
 
 class TestSorting(unittest.case):
 
