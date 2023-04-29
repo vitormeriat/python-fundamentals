@@ -24,3 +24,4 @@ This project is about classics software design patterns and how they can be impl
 :squirrel:
 
 ### Chain Pattern
+:squirrel:
