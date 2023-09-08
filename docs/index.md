@@ -1,6 +1,12 @@
-# Welcome to MkDocs
+# Welcome to Graphs are Awesome
+
+<div style="background-color:green; text-align: center;">
+    <img src="assets/logo.png">
+</div>
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+{% include "templates/cards.html" %}
 
 ## Commands
 
@@ -15,3 +21,17 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+
+## Como usar?
+
+### Escalas
+
+Você pode chamar as escalas via linha de comando. Por exemplo:
+
+
+```bash
+{{ commands.run }} escala
+```
+
+{% include "templates/installation.md" %}

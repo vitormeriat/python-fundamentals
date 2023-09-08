@@ -25,6 +25,12 @@ mkdocstrings = "^0.21.2"
 mkdocstrings-python = "^0.9.0"
 mkdocs-macros-plugin = "^0.7.0"
 
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.taskipy.tasks]
+test = "pytest -s -x --cov=graph -vv"
+docs = "mkdocs serve"

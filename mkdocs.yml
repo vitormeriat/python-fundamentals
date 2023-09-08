@@ -1,1 +1,34 @@
-site_name: My Docs
+site_name: Python Fundamentals
+repo_url: https://github.com/vitormeriat/python-fundamentals
+repo_name: vitormeriat/python-fundamentals
+edit_uri: tree/main/docs
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+markdown_extensions:
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css
+
+#watch:
+#   - text_graph
+
+plugins:
+  - macros
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [text_graph]
+
+extra:
+  commands:
+    run: tgraph
+
+nav:
+  - Home: index.md
+  - 01 - The Python Interpreter: 01-interpreter.md
+  - 02 - The Python Language: 02-language.md
