@@ -6,7 +6,28 @@
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-{% include "templates/cards.html" %}
+<div id="cards">
+    <div class="card">
+      <a href="#como-instalar-o-projeto" taget="_blank">
+        <h5>Início rápido!</h5>
+        <p>Dicas rápidas para sair usando</p>
+      </a>
+    </div>
+  
+    <div class="card">
+      <a href="./01_tutorial/" taget="_blank">
+        <h5>Tutorial!</h5>
+        <p>Para quem quer aprender mais</p>
+      </a>
+    </div>
+  
+    <div class="card">
+      <a href="./02_contribua/" taget="_blank">
+        <h5>Quero contribuir!</h5>
+        <p>Auxilio para novas contribuições!</p>
+      </a>
+    </div>
+  </div>
 
 ## Commands
 
@@ -34,4 +55,17 @@ Você pode chamar as escalas via linha de comando. Por exemplo:
 {{ commands.run }} escala
 ```
 
-{% include "templates/installation.md" %}
+## Como instalar o projeto
+
+Para instalação do cli do projeto recomendamos que use o `pipx` para fazer essa instalação:
+
+```bash
+pipx install notas-musicais
+```
+
+Embora isso seja somente uma recomendação! Você também pode instalar o projeto com o gerenciador de sua preferência. Como o pip:
+
+```bash
+pip install notas-musicais
+```
+
