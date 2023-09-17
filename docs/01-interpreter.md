@@ -1,4 +1,10 @@
-# 01. The Python Interpreter
+---
+---
+
+<header>
+<h1>01. The Python Interpreter</h1>
+</header>
+
 
 ---
 
@@ -17,6 +23,8 @@ The Python interpreter command-line syntax can be summarized as follows:
 ```bash
 [path]python {options} [-c command | -m module | file | -] {args}
 ```
+
+---
 
 Brackets (**[ ]**) enclose what’s optional, braces (**{ }**) enclose items of which zero or more may be present, and bars (**|**) mean a choice among alternatives. Python uses a slash (**/**) for file paths, as in Unix.
 

@@ -1,0 +1,23 @@
+full_rebuild: true
+name: Python Fundamentals
+author: Vitor Meriat
+url: https://vitormeriat.github.io/python-fundamentals
+repository: https://github.com/vitormeriat/python-fundamentals
+branch: gh-pages
+version: 1.1
+encoding: utf-8
+themes:
+    # General themes available: minimal, freelancer
+    general: freelancer
+    # Code block themes available: monokai, github, vs
+    code: monokai
+defaults:
+  -
+    values:
+      layout: "index"
+exclude: [
+.git,
+.gitignore,
+README.md,
+LICENSE
+]

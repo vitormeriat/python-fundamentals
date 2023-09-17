@@ -1,0 +1,74 @@
+entries:
+
+- title: Chapter 1
+  pages:
+
+  - title: 01. The Python Interpreter
+    url: 01-interpreter.html
+    sections:
+    - title: Section a
+    - title: Section b
+    - title: Section c
+
+  - title: Page 2
+    url: page-1.html
+    sections:
+    - title: Section a
+    - title: Section b
+    - title: Section c
+
+  - title: Page 3
+    url: page-1.html
+    sections:
+    - title: Section a
+    - title: Section b
+    - title: Section c
+
+- title: Chapter 2
+  pages:
+
+  - title: Page 4
+    url: page-1.html
+
+  - title: Page 5
+    url: page-1.html
+
+- title: Chapter 3
+  pages:
+
+  - title: Page 6
+    url: page-1.html
+
+  - title: Page 7
+    url: page-1.html
+
+  - title: Page 8
+    url: page-1.html
+
+- title: Chapter 4
+  pages:
+
+  - title: Page 9
+    url: page-1.html
+
+  - title: Page 10
+    url: page-1.html
+
+  - title: Page 11
+    url: page-1.html
+
+- title: <hr/>
+  class: inline bottom
+  pages:
+
+  - title: <i class="fa fa-github"></i>
+    url: https://github.com/vitormeriat/python-fundamentals
+
+  - title: <i class="fa fa-twitter"></i>
+    url: https://twitter.com/vitormeriat
+
+  - title: <i class="fa fa-youtube"></i>
+    url:
+
+  - title: <i class="fa fa-linkedin"></i>
+    url:

@@ -1,0 +1,22 @@
+{% comment %}
+The nav-tree variable has been defined in the include that called this file.
+To include child items in that tree, this file includes itself, 
+defining nav-tree as the children of the nav-tree it received originally.
+Turtles all the way down, at least as deep as the nav tree in meta.yml goes.
+Credit to Christian Specht for the inspiration:
+https://christianspecht.de/2014/06/18/building-a-pseudo-dynamic-tree-menu-with-jekyll/
+{% endcomment %}
+
+<ol>
+{% for item in include.nav-tree | sort: "order" %}
+    <li>
+        <a href="{{ base.url}}{{ item.file }}.html{% if item.id != nil %}#{{ item.id }}{% endif %}"
+           class="{% if page.url contains item.file %}active{% endif %}">
+            {{ item.label }}
+        </a>
+    </li>
+    {% if item.children != nil %}
+            {% include nav-list nav-tree=item.children %}
+    {% endif %}
+{% endfor %}
+</ol>

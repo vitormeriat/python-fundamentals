@@ -89,3 +89,9 @@ ENV/
 .ropeproject
 .DS_Store
 **/.DS_Store
+
+
+
+docs/_site/
+docs/.jekyll-metadata
+docs/.jekyll-cache
