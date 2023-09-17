@@ -6,7 +6,13 @@ Python style guide, use [PEP 8](https://www.python.org/dev/peps/pep-0008/) (opti
 
 ## Lexical Structure
 
-WIP.
+The lexical structure of a programming language is the set of basic rules that govern how you write programs in that language. It is the lowest-level syntax of the language, specifying such things as what variable names look like and how to denote comments. Each Python source file, like any other text file, is a sequence of characters. You can also usefully consider it a sequence of lines, tokens, or statements. These different lexical views complement each other. 
+
+> Python is very particular about program layout, especially lines and indentation.
+
+Lines and Indentation
+
+
 
 ## Data Types
 

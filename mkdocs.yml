@@ -19,14 +19,10 @@ extra_css:
 
 plugins:
   - macros
-  - mkdocstrings:
-      handlers:
-        python:
-          paths: [text_graph]
-
-extra:
-  commands:
-    run: tgraph
+  - mkdocstrings #:
+      #handlers:
+      #  python:
+      #    paths: [text_graph]
 
 nav:
   - Home: index.md
