@@ -3,18 +3,6 @@
   <h1 style="margin-bottom:40px; margin-top:20px">Python Fundamentals</h1>
 </div>
 
-<div id="top"></div>
-
-<div align="center">
-  <img width="50" src="https://www.vitormeriat.com/assets/images/profile.jpg">
-  <p style="margin-bottom:40px; margin-top:20px"><a href="http://www.vitormeriat.com" target="blank">Vitor Meriat</a> is a computer scientist who is passionate about creating software that will positively change the world we live in.</p>
-
-  <a class="fa fa-twitter" aria-hidden="true" href="https://twitter.com/vitormeriat" target="_blank"> twitter</a> | <a class="fa fa-instagram" aria-hidden="true" href="https://www.instagram.com/vitormeriat/" target="_blank"> instagram</a> | <a class="fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/vitormeriat" target="_blank"> linkedin</a> | <a class="fa fa-youtube" aria-hidden="true" href="https://www.youtube.com/user/vitormeriat/" target="_blank"> youtube</a>
-</div>
-
-
-
-
 <a name="readme-top"></a>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -27,6 +15,8 @@
 > "Any fool can write code that a computer can understand. Good programmers write code that humans can understand." – Martin Fowler
 
 > "There are only two hard things in Computer Science: cache invalidation and naming things." – Phil Karlton
+
+<div style="margin-bottom:50px;" id="top"></div>
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -50,19 +40,30 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#clean-code">Clean Code</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#none">Naming Things</a></li>
+        <li><a href="#none">Functions</a></li>
+        <li><a href="#none">Objects and Data Structures</a></li>
+        <li><a href="#none">Classes</a></li>
+        <li><a href="#none">SOLID Principles</a></li>
+        <li><a href="#none">Testing</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#none">Code Quality Measurement</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#none">1. Code complexity</a></li>
+        <li><a href="#none">2. Code coverage</a></li>
+        <li><a href="#none">3. Bug density</a></li>
+        <li><a href="#none">4. Duplicated code</a></li>
+        <li><a href="#none">5. Code maintainability</a></li>
+        <li><a href="#none">6. Coding standards</a></li>
+        <li><a href="#none">7. Security vulnerabilities</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -93,97 +94,12 @@ Use the `BLANK_README.md` to get started.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Naming Things
-
----
+<!-- CLEAN CODE -->
+## Clean Code
 
 Modern software is so complex that no one can understand all parts of a non-trivial project alone. The only way humans tame details is through abstractions. With abstraction, we focus on the essential and forget about the non-essential at that particular time. You remember the way you learned body biology?? You focused on one system at a time, digestive, nervous, cardiovascular e.t.c and ignored the rest. That is abstraction at work.
 
 🔝 **[⬆ back to top](#table-of-contents)**
-
-### **Use intention revealing names**
-
----
 
 This rule enforces that programmers should make their code read like well written prose by naming parts <br>
 of their code perfectly. With such good naming, a programmer will never need to resort to comments or unnecessary <br> doc strings.
@@ -208,6 +124,33 @@ Orders = List[Order]
 def get_pending_orders(orders : Orders)-> Orders:
     return [order for order in orders if order.is_pending()]
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CODE QUALITY MEASUREMENT -->
+## Code Quality Measurement
+
+WIP.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Add Changelog
+- [x] Add back to top links
+- [ ] Add Additional Templates w/ Examples
+- [ ] Add "components" document to easily copy & paste sections of the readme
+- [ ] Multi-language Support
+    - [ ] Portuguese
+    - [ ] Spanish
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -239,9 +182,13 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+<div align="center">
+  <img width="50" src="https://www.vitormeriat.com/assets/images/profile.jpg">
+  <p style="margin-bottom:40px; margin-top:20px"><a href="http://www.vitormeriat.com" target="blank">Vitor Meriat</a> is a computer scientist who is passionate about creating software that will positively change the world we live in.</p>
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+  <a class="fa fa-twitter" aria-hidden="true" href="https://twitter.com/vitormeriat" target="_blank"> twitter</a> | <a class="fa fa-instagram" aria-hidden="true" href="https://www.instagram.com/vitormeriat/" target="_blank"> instagram</a> | <a class="fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/vitormeriat" target="_blank"> linkedin</a> | <a class="fa fa-youtube" aria-hidden="true" href="https://www.youtube.com/user/vitormeriat/" target="_blank"> youtube</a>
+</div>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

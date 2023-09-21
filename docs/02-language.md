@@ -1,4 +1,13 @@
-# 02. The Python Language
+---
+---
+
+<header>
+<h1>02. The Python Language</h1>
+</header>
+
+---
+
+## Intro
 
 To learn Python from scratch, we suggest you start with the appropriate links from [the online docs/tutorial](https://docs.python.org/3/tutorial/).
 

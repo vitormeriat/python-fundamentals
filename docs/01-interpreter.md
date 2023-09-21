@@ -5,7 +5,6 @@
 <h1>01. The Python Interpreter</h1>
 </header>
 
-
 ---
 
 ## The Python Program
