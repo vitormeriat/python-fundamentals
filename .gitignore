@@ -90,8 +90,10 @@ ENV/
 .DS_Store
 **/.DS_Store
 
-
-
+# jekyll
 docs/_site/
 docs/.jekyll-metadata
 docs/.jekyll-cache
+
+# vscode
+.vscode

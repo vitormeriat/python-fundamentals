@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="180" src="docs/assets/python-3.svg">
+  <img width="140" src="docs/assets/python-3.svg">
   <h1 style="margin-bottom:40px; margin-top:20px">Python Fundamentals</h1>
 </div>
 
@@ -24,7 +24,9 @@
 *** Thanks again! Now go create something AMAZING! :D
 -->
 
+> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand." – Martin Fowler
 
+> "There are only two hard things in Computer Science: cache invalidation and naming things." – Phil Karlton
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -73,7 +75,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<div align="center">
+  <img width="320" src="https://www.osnews.com/images/comics/wtfm.jpg">
+</div>
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
@@ -169,7 +173,41 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Naming Things
 
+---
+
+Modern software is so complex that no one can understand all parts of a non-trivial project alone. The only way humans tame details is through abstractions. With abstraction, we focus on the essential and forget about the non-essential at that particular time. You remember the way you learned body biology?? You focused on one system at a time, digestive, nervous, cardiovascular e.t.c and ignored the rest. That is abstraction at work.
+
+🔝 **[⬆ back to top](#table-of-contents)**
+
+### **Use intention revealing names**
+
+---
+
+This rule enforces that programmers should make their code read like well written prose by naming parts <br>
+of their code perfectly. With such good naming, a programmer will never need to resort to comments or unnecessary <br> doc strings.
+Below is a code snippet from a software system. Would you make sense of it without any explanation?
+
+**Bad** 😠
+
+```python
+from typing import List
+
+def f(a : List[List[int]])->List[List[int]]:
+    return [i for i in a if i[1] == 0]
+```
+
+**Better** 😃
+
+```python
+from typing import List
+
+Orders = List[Order]
+
+def get_pending_orders(orders : Orders)-> Orders:
+    return [order for order in orders if order.is_pending()]
+```
 
 <!-- CONTRIBUTING -->
 ## Contributing
