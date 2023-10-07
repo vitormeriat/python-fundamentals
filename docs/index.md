@@ -1,3 +1,8 @@
+---
+layout: home
+title: Python Fundamentals
+permalink: /
+---
 
 Make Jelly site have a GitBook look!
 
