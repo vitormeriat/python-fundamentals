@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div align="center">
-  <img width="140" src="../assets/python-3.svg">
+  <img width="140" src="assets/python-3.svg">
 </div>
 
 <a name="readme-top"></a>
