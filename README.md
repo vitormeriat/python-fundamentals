@@ -80,7 +80,7 @@
   <img width="320" src="https://www.osnews.com/images/comics/wtfm.jpg">
 </div>
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it. :D
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
