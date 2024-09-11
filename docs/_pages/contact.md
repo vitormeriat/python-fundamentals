@@ -6,6 +6,10 @@ category: Jekyll
 layout: post
 ---
 
+<div>
+  <p style="font-size: 2em;font-weight: bold;margin-bottom:60px;margin-top:40px">Contact</p>
+</div>
+
 
 <div align="center">
   <img width="80" src="https://www.vitormeriat.com/assets/images/profile.jpg">

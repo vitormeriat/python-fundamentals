@@ -4,9 +4,14 @@ title: Python Fundamentals
 permalink: /
 ---
 
+<div align="center" style="background: #dcd7fa;">
+  <img width="140" src="../assets/python-3.svg" style="margin-top:20px">
+  <p style="font-size: 2em;font-weight: bold;margin-bottom:40px;margin-top:20px">The Python Fundamentals</p>
+</div>
+<!-- 
 <div align="center">
   <img width="140" src="assets/python-3.svg">
-</div>
+</div> -->
 
 <a name="readme-top"></a>
 
@@ -16,29 +21,61 @@ permalink: /
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="pages/about">About The Project</a>
     </li>
     <li>
-      <a href="#clean-code">Clean Code</a>
+      <a href="book/2023-10-01-charpter-01">Chapter 01 - The Python Interpreter</a>
       <ul>
-        <li><a href="#none">Naming Things</a></li>
-        <li><a href="#none">Functions</a></li>
-        <li><a href="#none">Objects and Data Structures</a></li>
-        <li><a href="#none">Classes</a></li>
-        <li><a href="#none">SOLID Principles</a></li>
-        <li><a href="#none">Testing</a></li>
+        <li><a href="#none">1. The Python Program</a></li>
+        <li><a href="#none">2. Running Python Programs</a></li>
       </ul>
     </li>
     <li>
-      <a href="#none">Code Quality Measurement</a>
+      <a href="book/2023-10-02-charpter-02">Chapter 02 - The Python Language</a>
       <ul>
-        <li><a href="#none">1. Code complexity</a></li>
-        <li><a href="#none">2. Code coverage</a></li>
-        <li><a href="#none">3. Bug density</a></li>
-        <li><a href="#none">4. Duplicated code</a></li>
-        <li><a href="#none">5. Code maintainability</a></li>
-        <li><a href="#none">6. Coding standards</a></li>
-        <li><a href="#none">7. Security vulnerabilities</a></li>
+        <li><a href="#none">1. Intro</a></li>
+        <li><a href="#none">2. Lexical Structure</a></li>
+        <li><a href="#none">3. Data Types</a></li>
+        <li><a href="#none">4. Variables and Other References</a></li>
+        <li><a href="#none">5. Expressions and Operators</a></li>
+        <li><a href="#none">6. Set Operations</a></li>
+        <li><a href="#none">7. Control Flow Statements</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="book/2023-10-03-charpter-03">Chapter 03 - Clean Python Code</a>
+      <ul>
+        <li><a href="#none">1. Naming Things</a></li>
+        <li><a href="#none">2. Functions</a></li>
+        <li><a href="#none">3. Objects and Data Structures</a></li>
+        <li><a href="#none">4. Classes</a></li>
+        <li><a href="#none">5. SOLID Principles</a></li>
+        <li><a href="#none">6. Testing</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="book/2023-10-04-charpter-04">Chapter 04 - Code Quality Measurement</a>
+      <ul>
+        <li>1. Code complexity</li>
+        <li>2. Code coverage</li>
+        <li>3. Bug density</li>
+        <li>4. Duplicated code</li>
+        <li>5. Code maintainability</li>
+        <li>6. Coding standards</li>
+        <li>7. Security vulnerabilities</li>
+      </ul>
+    </li>
+    <li>
+      <a href="book/2023-10-04-charpter-04">Chapter 05 - High Performance Python</a>
+      <ul>
+        <li><a href="#none">1. Intro</a></li>
+        <li><a href="#none">2. The Fundamental Computer System</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="book/2023-10-04-charpter-04">Chapter 06 - Efficiently Memory Management</a>
+      <ul>
+        <li><a href="#none">1. Intro</a></li>
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
@@ -95,3 +132,11 @@ Extended by its library of plugins, Python has become an automation standard acr
 Thanks to its growing dependability in the areas of data science, Python has become the go-to computing language in schools, colleges, and other places of learning. Simply put, those who pursue a formal education in computer science are extremely likely to be introduced to Python during the course of their learning and are even more likely to continue using Python throughout their career.
 
 By teaching the next generation of programmers and developers how to get the most out of Python, schools are ensuring that Python remains a viable, popular option for years to come.
+
+## Bibliography & References
+
+- High Performance Python, 2nd Edition by Micha Gorelick, Ian Ozsvald
+- Fluent Python, 2nd Edition by Luciano Ramalho 🔬
+- Think Python: How to Think Like a Computer Scientist, 2nd Edition by Allen B. Downey
+- The Python Tutorial: (https://docs.python.org/3/tutorial/index.html)
+- Computer Systems: A Programmer's Perspective, 3rd Edition by by Randal Bryant, David O'Hallaron
