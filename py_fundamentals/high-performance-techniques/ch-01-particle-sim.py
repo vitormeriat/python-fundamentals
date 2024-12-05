@@ -5,13 +5,14 @@ import timeit
 
 
 class Particle:
+    """Stores the particle positions, x and y, and their angular velocity"""
 
-    __slots__ = ('x', 'y', 'ang_speed')
+    __slots__ = ('x', 'y', 'ang_vel')
 
-    def __init__(self, x, y, ang_speed):
+    def __init__(self, x, y, ang_vel):
         self.x = x
         self.y = y
-        self.ang_speed = ang_speed
+        self.ang_vel = ang_vel
 
 
 class ParticleSimulator:
@@ -30,26 +31,15 @@ class ParticleSimulator:
                 v_x = (-p.y)/norm
                 v_y = p.x/norm
                 # 2. calculate the displacement
-                d_x = timestep * p.ang_speed * v_x
-                d_y = timestep * p.ang_speed * v_y
+                d_x = timestep * p.ang_vel * v_x
+                d_y = timestep * p.ang_vel * v_y
 
                 p.x += d_x
                 p.y += d_y
                 # 3. repeat for all the time steps
 
-    # def evolve(self, dt):
-    #     timestep = 0.00001
-    #     nsteps = int(dt/timestep)
 
-    #     # First, change the loop order
-    #     for p in self.particles:
-    #         t_x_ang = timestep * p.ang_speed
-    #         for i in range(nsteps):
-    #             norm = (p.x**2 + p.y**2)**0.5
-    #             p.x, p.y = p.x - t_x_ang*p.y/norm, p.y + t_x_ang * p.x/norm
-
-
-def visualize(simulator):
+def visualize(simulator: ParticleSimulator):
     # plt.matplotlib.use('Qt5Agg')  # Or 'TkAgg' 
     plt.matplotlib.use('TkAgg') 
 
@@ -58,14 +48,19 @@ def visualize(simulator):
 
     fig = plt.figure()
     ax = plt.subplot(111, aspect='equal')
+    # Set up the axes and use the plot function to display the particles. plot takes a list of x and y coordinates.
     line, = ax.plot(X, Y, 'ro')
 
     # Axis limits
     plt.xlim(-1, 1)
     plt.ylim(-1, 1)
 
+    # Write an initialization function, init, and a function, animate, that updates the 
+    # x and y coordinates using the line.set_data method.
+
     # It will be run when the animation starts
     def init():
+        
         line.set_data([], [])
         return line,
 
@@ -77,6 +72,10 @@ def visualize(simulator):
 
         line.set_data(X, Y)
         return line,
+
+    # Create a FuncAnimation instance by passing the init and animate functions
+    # plus the interval parameters, which specify the update interval, and blit,
+    # which improves the update rate of the image.
 
     # Call the animate function each 10 ms
     anim = animation.FuncAnimation(fig,
@@ -157,4 +156,3 @@ def benchmark_memory():
 
 if __name__ == '__main__':
     benchmark()
-    # test_visualize()
