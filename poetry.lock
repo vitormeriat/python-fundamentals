@@ -727,6 +727,22 @@ pyside6 = ["pyside6"]
 test = ["flaky", "ipyparallel", "pre-commit", "pytest (>=7.0)", "pytest-asyncio", "pytest-cov", "pytest-timeout"]
 
 [[package]]
+name = "ipytest"
+version = "0.14.2"
+description = "Unit tests in IPython notebooks"
+optional = false
+python-versions = "<4,>=3.8"
+files = [
+    {file = "ipytest-0.14.2-py3-none-any.whl", hash = "sha256:236b2d41ad0943310f5a9b7a7d03a627e6abd3ceb481b13fcd03d17292fd69b2"},
+    {file = "ipytest-0.14.2.tar.gz", hash = "sha256:936ab65044e1f9365a8be3f0f1f4b4c086bad44da65844934ea99701413f17d6"},
+]
+
+[package.dependencies]
+ipython = "*"
+packaging = "*"
+pytest = ">=5.4"
+
+[[package]]
 name = "ipython"
 version = "8.12.0"
 description = "IPython: Productive Interactive Computing"
@@ -2288,4 +2304,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "096bd68db262060152e2c32efe0e1a9b915c83a00463ced41eb1707f97976d6e"
+content-hash = "ca3d61c3ef3c1fd602707178201bb9f068a8779cd04f01c802982e3c239d6982"

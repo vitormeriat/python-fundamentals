@@ -20,6 +20,7 @@ blue = "^0.9.1"
 taskipy = "^1.10.4"
 humanize = "^4.10.0"
 matplotlib = "^3.9.2"
+ipytest = "^0.14.2"
 
 
 [tool.poetry.group.doc.dependencies]
